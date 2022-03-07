@@ -1,0 +1,66 @@
+.skills{
+display: flex;
+flex-direction: column;
+}
+
+.skills__title{
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 32px;
+}
+
+.skills__containerCards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3% 88px 3%;
+
+
+}
+.skills__containerCards__card{
+    background-color: aliceblue;
+    width:  120px;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+.skills__containerCards__card__icon{
+    width:  50px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.skills__containerCards__card__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+
+}
+
+/* Configuracion de responsive para tablets */
+
+@media (max-width:850px){
+    .skills__containerCards{
+        flex-wrap: wrap;
+    }
+}
+
+/*Configuracion de responsive para celular */
+@media (max-width:496px){
+    .skills__containerCards{
+        margin: 0px 8% 88px 8%;
+    }
+    .skills__title{
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+

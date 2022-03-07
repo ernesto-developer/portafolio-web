@@ -1,0 +1,116 @@
+.intro{
+display: flex;
+justify-content: space-around;
+margin: 67px 3% 0px 3%;
+}
+
+.intro__data{
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    margin-right: 18px;
+}
+.intro__data__hello{
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 61px;
+    color: #464646;
+
+}
+.intro__data__resumeMe{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin: 26px 0px;
+}
+
+.intro__data__navLinks{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+}
+.intro__data__navLinks__link{
+    display: flex;
+
+}
+.intro__data__navLinks__link:hover{
+    color: #49FF00;
+    transition: .1s;
+}
+.intro__data__navLinks__link__text{
+    margin-right: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.intro__data__navLinks__link__text:hover{
+    text-decoration: underline;
+}
+
+.intro__data__navLinks__link__icon{
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    margin-right: 8px;
+}
+
+.intro__avatarImg{
+    width: 368px;
+    height: 368px;
+    align-self: center;
+}
+
+/* Configuracion de responsive para tablets */
+
+@media (max-width:768px){
+
+    .intro__data__hello{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .intro__data__resumeMe{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .intro__avatarImg{
+        width: 146px;
+        height: 146px;
+    }
+    .intro__data__navLinks{
+        width: 100%;
+    }
+    
+}
+/*Configuracion de responsive para celular */
+@media (max-width:540px){
+
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro__data{
+        margin: 0px ;
+    }
+    .intro__avatarImg{
+        align-self: flex-start;
+        margin-bottom: 16px;
+    }
+    .intro__data__resumeMe{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .intro__data__navLinks__link__text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .intro__data__navLinks__link__icon{
+        width: 14px;
+        height: 14px;
+    }
+
+ 
+}

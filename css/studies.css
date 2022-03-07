@@ -1,0 +1,106 @@
+.studies{
+    width: 100%;
+    padding: 82px 0px;
+    background-color: #EAF2FD;
+    margin-bottom: 32px;
+}
+
+.studies__container{
+    display: flex;
+    flex-direction: column;
+}
+.studies__container__title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #464646;
+    align-self: center;
+    margin-bottom: 32px;
+}
+.studies__container__cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 3%;
+}
+.studies__container__cards__card{
+    margin: 0px 10px;
+    
+}
+.studies__container__cards__card__containerImg{
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.studies__container__cards__card__containerImg__img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+}
+
+.studies__container__cards__formation{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #464646;
+    max-width: 320px;
+    margin-bottom: 6px;
+}
+.studies__container__cards__year{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #464646;
+}
+
+ /* Configuracion de responsive para tablets */
+    
+ @media (max-width:1180px){
+   .studies__container__cards__card__containerImg{
+    width: 250px;
+    height: 250px;
+   }
+   .studies__container__cards__card__containerImg__img{
+    width: 150px;
+    height: 150px;
+   }
+   .studies__container__cards__formation{
+        font-size: 18px;
+        max-width: 200px;
+   }
+  
+}
+
+/*Configuracion de responsive para celular */
+@media (max-width:870px){
+    .studies__container__title{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .studies__container__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+  .studies__container__cards__card__containerImg{
+      width: 300px;
+      height: 300px;
+
+  }
+  .studies__container__cards__card{
+      text-align: center;
+      margin: 20px 10px;
+  }
+  .studies__container__cards__card__containerImg__img{
+      width: 200px;
+      height: 200px;
+  }
+  .studies__container__cards__formation{
+      max-width: 300px;
+  }
+}
