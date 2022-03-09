@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/studies.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <title>Portafolio de Ernesto Ruiz</title>
 </head>
@@ -39,7 +40,7 @@
             <a href="#projects"><p class="header__nav__link">Proyectos</p></a>
         </div>
         <div class="header__contacto">
-            <p class="header__contacto__email">ernesto_711@live.com.mx</p>
+            <a href="#contacto"><p class="header__contacto__email header__nav__link">ernesto_711@live.com.mx</p></a>
         </div>
     </header>
     
@@ -193,14 +194,14 @@
         </div>
     </section>
 
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         
         <img src="assets/unsplash_JYGnB9gTCls.png" alt="" class="contacto__img">
         <div class="contacto__containerForm">
             <h2 class="contacto__form__title">Contacto</h2>
             <p class="contacto__form__text">¿Quieres contactarme?</p>
             <p class="contacto__form__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-            <form action="" class="contacto__form">
+            <form action="" class="contacto__form" autocomplete="off">
                 <div class="contacto__form__containerInput">
                     <label class="form__input__label" for="inputNombre">Nombre</label>
                     <input type="text" name="nombre" id="inputNombre" class="contacto__form__nombre style-input">
@@ -222,8 +223,11 @@
         </div>
     </section>
 
-    
-    
+    <footer class="footer">
+        <h2 class="footer__name">Desarrolado por Ernesto Ruiz</h2>
+        <p class="footer__date">2022 &copy;</p>
+    </footer>
+
 </body>
 
 </html>

@@ -82,6 +82,7 @@
     line-height: 20px;
     color: var(--background-color-black);
     
+    
 }
 .contacto__form__button{
     width: 144px;
@@ -108,5 +109,9 @@
     }
     .contacto__form__containerInput{
         width: 95%;
+    }
+    .contacto__form__title{
+        font-size: 22px;
+        line-height: 26px;
     }
 }
