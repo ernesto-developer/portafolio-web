@@ -12,6 +12,7 @@
     
     <link rel="stylesheet" href="css/normailzer.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/intro.css">
     <link rel="stylesheet" href="css/aboutMe.css">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/studies.css">
     <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/contacto.css">
 
     <title>Portafolio de Ernesto Ruiz</title>
 </head>
@@ -193,16 +194,29 @@
     </section>
 
     <section class="contacto">
-        <div class="contacto__img"></div>
+        
+        <img src="assets/unsplash_JYGnB9gTCls.png" alt="" class="contacto__img">
         <div class="contacto__containerForm">
-            <h2 class="contacto__form__title"></h2>
-            <p class="contacto__form__text"></p>
-            <p class="contacto__form__text"></p>
+            <h2 class="contacto__form__title">Contacto</h2>
+            <p class="contacto__form__text">¿Quieres contactarme?</p>
+            <p class="contacto__form__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
             <form action="" class="contacto__form">
-                <input type="text" name="nombre" id="" class="contacto__form__nombre">
-                <input type="email" name="email" id="" class="contacto__form__email">
-                <input type="text" name="asunto" id="" class="contacto__form__asunto">
-                <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__form__mensaje"></textarea>
+                <div class="contacto__form__containerInput">
+                    <label class="form__input__label" for="inputNombre">Nombre</label>
+                    <input type="text" name="nombre" id="inputNombre" class="contacto__form__nombre style-input">
+                </div>
+                <div class="contacto__form__containerInput">
+                    <label class="form__input__label" for="inputEmail">Email</label>
+                    <input type="email" name="email" id="inputEmail" class="contacto__form__email style-input">
+                </div>
+                <div class="contacto__form__containerInput">
+                    <label class="form__input__label" for="inputAsunto">Asunto</label>
+                    <input type="text" name="asunto" id="inputAsunto" class="contacto__form__asunto style-input">
+                </div>
+                <div class="contacto__form__containerInput">
+                    <label class="form__input__label" for="inputMensaje">Mensaje</label>
+                    <textarea name="mensaje" id="inputMensaje" cols="30" rows="10" class="contacto__form__mensaje style-input"></textarea>
+                </div>
                 <button class="contacto__form__button">Enviar Mensaje</button>
             </form>
         </div>
