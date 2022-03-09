@@ -1,0 +1,110 @@
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__title{
+    font-family: var(--font-Raleway);
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #464646;
+    align-self: center;
+
+}
+
+.projects__container{
+    display: flex;
+    margin: 32px 3% 64px 3%;
+}
+.projects__container__img{
+    width: 700px;
+    height: 380px;
+    margin: 0px 16px;
+
+}
+.projects__container__infos{
+    height: fit-content;
+    align-self: center;
+
+}
+.projects__container__info__title{
+    font-family: var(--font-Raleway);
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #464646;
+
+}
+.projects__container__info__desingInfo{
+    font-family: var(--font-Raleway);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+
+}
+.projects__container__info__divButtons{
+    
+}
+.projects__container__info__divButtons__buttonRepo{
+    font-family: var(--font-Raleway);
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+    background-color: #fff;
+    width: 105px;
+    height: 51px;
+    border-color: #2a7ae4;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+.projects__container__info__divButtons__buttonRepo:hover{
+    
+    background-color: #dfd6d6;
+    transition: .2s;
+    
+}
+
+.projects__container__info__divButtons__buttonDemo{
+    font-family: var(--font-Raleway);
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF;
+    background-color: #2a7ae4;
+    width: 105px;
+    height: 51px;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+.projects__container__info__divButtons__buttonDemo:hover{
+    background-color: #236ac7;
+    transition: .2s;
+}
+
+@media (max-width: 900px){
+
+    .projects__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .projects__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects__container__img{
+        width: 100%;
+        height: fit-content;
+    }
+    .projects__container__infos{
+        align-self: flex-start;
+        margin-top: 16px;
+    }
+
+}
