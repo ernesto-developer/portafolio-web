@@ -18,6 +18,9 @@
     display: flex;
     margin: 32px 3% 64px 3%;
 }
+.projects__container--reverse{
+    flex-direction: row-reverse;
+}
 .projects__container__img{
     width: 700px;
     height: 380px;
