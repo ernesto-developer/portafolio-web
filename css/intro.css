@@ -15,14 +15,15 @@ margin: 67px 3% 0px 3%;
     font-size: 52px;
     font-weight: bold;
     line-height: 61px;
-    color: #464646;
+    color: var(--color-light);
 
 }
 .intro__data__resumeMe{
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     line-height: 26px;
-    color: #464646;
+    color: var(--color-light);
+    
     margin: 26px 0px;
 }
 
@@ -34,10 +35,11 @@ margin: 67px 3% 0px 3%;
 }
 .intro__data__navLinks__link{
     display: flex;
+    color: #fff;
 
 }
 .intro__data__navLinks__link:hover{
-    color: #49FF00;
+    color: #ECB365;
     transition: .1s;
 }
 .intro__data__navLinks__link__text{
@@ -46,7 +48,7 @@ margin: 67px 3% 0px 3%;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;
+    color: var(--color-light);
 }
 .intro__data__navLinks__link__text:hover{
     text-decoration: underline;
@@ -62,7 +64,9 @@ margin: 67px 3% 0px 3%;
 .intro__avatarImg{
     width: 368px;
     height: 368px;
+    border-radius: 100%;
     align-self: center;
+    box-shadow: 2px .5rem .5rem .2rem rgba(0, 0, 0,.3);
 }
 
 /* Configuracion de responsive para tablets */

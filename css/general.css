@@ -6,4 +6,13 @@
 
     --background-color-blueLigh: #EAF2FD;
     --background-color-black: #464646;
+    --color-light: rgb(235, 232, 232);
+
+    --elevate-color: rgba(255,255,255,.2);
+    --elevate-blur: blur(15px);
+    --elevate-shadow: 2px 2px 15px 10px rgba(0, 0, 0,.2);
+}
+
+body{
+    background: linear-gradient(#064663,#04293A, #041C32);
 }

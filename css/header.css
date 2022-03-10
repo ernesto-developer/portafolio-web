@@ -14,13 +14,14 @@
 .header__nombreTitle__icon{
     font-size: 20px;
     margin-right: 7px;
+    color: #ECB365;
 }
 .header__nombreTitle__name{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;    
+    color: var(--color-light);    
 }
 .header__nav{
     display: flex;
@@ -32,12 +33,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;
+    color: var(--color-light);
 }
 .header__nav__link:hover{
     transform: scale(1.1);
     font-weight: bold;
-    color: #3F51B5;
+    color: #ECB365;
     transition: .2s;
 }
 .header__contact{
@@ -49,7 +50,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;
+    color: var(--color-light);
 }
 
 /* Configuracion de responsive para tablets */

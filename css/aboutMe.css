@@ -5,6 +5,9 @@ justify-content: space-between;
 background-color: #EAF2FD;
 padding: 64px 0px;
 margin: 32px 0px;
+background-color: var(--elevate-color);
+backdrop-filter: var(--elevate-blur);
+box-shadow: var(--elevate-shadow);
 }
 
 .aboutMe__container{
@@ -18,7 +21,7 @@ margin: 32px 0px;
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    color: #464646;
+    color: var(--color-light);
     
     
 }
@@ -26,7 +29,7 @@ margin: 32px 0px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 19px;
-    color: #464646;
+    color: var(--color-light);
     margin: 16px 0px;
     text-align: justify;
     

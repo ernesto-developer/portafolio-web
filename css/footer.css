@@ -14,14 +14,19 @@
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
-    color: var(--background-color-black);
+    color: var(--color-light);
     margin-bottom: 5px;
+    /* opacity: 0; */
 
 }
+/* .footer__name:hover{
+    opacity: 1;
+    transition: .5s;
+} */
 .footer__date{
     font-family: var(--font-Raleway);
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
-    color: var(--background-color-black);
+    color: var(--color-light);
 }
