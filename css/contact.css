@@ -1,0 +1,117 @@
+.contact{
+    width: 100%;
+    height: fit-content;
+    padding: 64px 0px;
+    background-color: var(--background-color-blueLigh);
+    display: flex;
+}
+
+.contact__img{
+    width: 464px;
+    height: 593px;
+    margin-left: 5%;    
+}
+
+.contact__containerForm{
+    width: 656px;
+    height: 596px;
+    margin-left: 16px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact__form__title{
+
+    font-family: var(--font-Raleway);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--background-color-black);  
+
+    
+}
+.contact__form__text{
+    font-family: var(--font-Raleway);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--background-color-black);
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contact__form__mensaje{
+    /* min-width: 656px; */
+    min-height: 180px;
+    max-width: 656px;
+    max-height: 180px;
+    resize: none;
+} 
+.contact__form__containerInput{
+    width: 90%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 8px 0px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form__input__label{
+    font-family: var(--font-Raleway);
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    
+}
+/* TODO HACER CON JS QUE EL LABEL SE PONGA AZUL CUNADO EL INPUT ESTE enable  */
+
+
+.style-input{
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-family: var(--font-Raleway);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: var(--background-color-black);
+    
+    
+}
+.contact__form__button{
+    width: 144px;
+    height: 51px;
+    color: #fff;
+    background-color: #2A7AE4;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+.contact__form__button:hover{
+    background-color: #236ac7;
+    transition: .2s;
+}
+
+@media(max-width: 950px){
+    .contact__img{
+        display: none;
+    }
+    .contact__containerForm{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .contact__form__containerInput{
+        width: 95%;
+    }
+    .contact__form__title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
