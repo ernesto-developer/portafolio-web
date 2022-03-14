@@ -59,6 +59,6 @@ app.post("/",(req,res)=>{
     });
 });
 
-app.listen(3000, ()=>{
+app.listen(process.env.port, ()=>{
     console.log("Server is on port 3000");
 });
