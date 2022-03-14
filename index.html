@@ -231,7 +231,7 @@
             <h2 class="contact__form__title">Contacto</h2>
             <p class="contact__form__text">¿Quieres contactarme?</p>
             <p class="contact__form__text">Complete el siguiente formulario y me pondré en contact con usted lo antes posible.</p>
-            <form action="" class="contact__form" autocomplete="off">
+            <form action="/" class="contact__form" autocomplete="off" method="post">
                 <div class="contact__form__containerInput">
                     <label class="form__input__label" for="inputNombre">Nombre</label>
                     <input type="text" name="nombre" id="inputNombre" class="contact__form__nombre style-input">
@@ -248,7 +248,7 @@
                     <label class="form__input__label" for="inputMensaje">Mensaje</label>
                     <textarea name="mensaje" id="inputMensaje" cols="30" rows="10" class="contact__form__mensaje style-input"></textarea>
                 </div>
-                <button class="contact__form__button">Enviar Mensaje</button>
+                <button type="submit" class="contact__form__button">Enviar Mensaje</button>
             </form>
         </div>
     </section>

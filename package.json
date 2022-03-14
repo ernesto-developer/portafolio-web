@@ -1,0 +1,24 @@
+{
+  "name": "portafolio-web",
+  "version": "1.0.0",
+  "description": "Portafolio de Ernesto Ruiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernesto-developer/portafolio-web.git"
+  },
+  "author": "Ernesto Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernesto-developer/portafolio-web/issues"
+  },
+  "homepage": "https://github.com/ernesto-developer/portafolio-web#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.2"
+  }
+}
