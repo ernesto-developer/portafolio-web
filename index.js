@@ -57,13 +57,6 @@ app.post("/",(req,res)=>{
             res.status(200).send("<h1>El email fue enviado</h1>");
         }
     });
-
-
-    
-    // res.send(`nombre ${nombre} email ${email} ausnto ${asunto} mensaje ${mensaje}`);
-
-
-
 });
 
 app.listen(3000, ()=>{
