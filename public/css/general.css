@@ -16,5 +16,6 @@
 body{
     
     background: linear-gradient(#064663,#04293A, #041C32);
-
+    display: flex;
+    flex-direction: column;
 }

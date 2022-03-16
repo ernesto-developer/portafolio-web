@@ -1,5 +1,6 @@
 .aboutMe{
-width: 100%;
+align-self: center;
+width: 95%;
 display: flex;
 justify-content: space-between;
 background-color: #EAF2FD;
@@ -8,6 +9,8 @@ margin: 32px 0px;
 background-color: var(--elevate-color);
 backdrop-filter: var(--elevate-blur);
 box-shadow: var(--elevate-shadow);
+border-radius: 30px;
+
 }
 
 .aboutMe__container{

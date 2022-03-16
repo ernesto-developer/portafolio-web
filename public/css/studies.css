@@ -1,11 +1,12 @@
 .studies{
-    width: 100%;
+    align-self: center;
+    width: 95%;
     padding: 82px 0px;
     margin-bottom: 32px;
     background-color: var(--elevate-color);
     backdrop-filter: var(--elevate-blur);
     box-shadow:var(--elevate-shadow);
-
+    border-radius: 30px;
 }
 
 .studies__container{

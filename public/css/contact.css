@@ -1,12 +1,13 @@
 .contact{
-    width: 100%;
+    align-self: center;
+    width: 95%;
     height: fit-content;
     padding: 64px 0px;
     display: flex;
     background-color: var(--elevate-color);
     backdrop-filter: var(--elevate-blur);
     box-shadow: var(--elevate-shadow);
-
+    border-radius: 30px;
 }
 
 .contact__img{
@@ -117,4 +118,10 @@
         font-size: 22px;
         line-height: 26px;
     }
+}
+@media (max-width: 400px) {
+    .contact__form__containerInput{
+        padding: 7px 5px;
+    }
+    
 }
