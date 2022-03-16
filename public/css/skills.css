@@ -19,6 +19,7 @@ flex-direction: column;
     margin: 0px 3% 88px 3%;
 
 
+
 }
 .skills__containerCards__card{
     background-color: aliceblue;
@@ -30,6 +31,9 @@ flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 15px;
+    border: solid;
+    border-width: 2px;
+    
 }
 .skills__containerCards__card__icon{
     width:  50px;

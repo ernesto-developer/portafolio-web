@@ -2,6 +2,11 @@
 display: flex;
 justify-content: space-around;
 margin: 67px 3% 0px 3%;
+background-color: var(--elevate-color);
+backdrop-filter: var(--elevate-blur);
+/* box-shadow: var(--elevate-shadow); */
+border-radius: 5px;
+padding: 2px;
 }
 
 .intro__data{

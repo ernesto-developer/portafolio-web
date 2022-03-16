@@ -8,7 +8,7 @@ padding: 64px 0px;
 margin: 32px 0px;
 background-color: var(--elevate-color);
 backdrop-filter: var(--elevate-blur);
-box-shadow: var(--elevate-shadow);
+/* box-shadow: var(--elevate-shadow); */
 border-radius: 30px;
 
 }

@@ -3,6 +3,10 @@
     height: fit-content;
     display: flex;
     margin: 32px 0px; 
+   /*  background-color: var(--elevate-color);
+    backdrop-filter: var(--elevate-blur);
+    box-shadow: var(--elevate-shadow);
+    border-radius: 5px; */
 }
 .header__nombreTitle{
     flex-grow: 1;
