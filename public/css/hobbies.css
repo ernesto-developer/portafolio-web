@@ -30,6 +30,8 @@
         justify-content: center;
         text-align: center;
         margin: 15px;
+        border: solid;
+        border-width: 2px;
     }
     .hobbies__containerCards__card__icon{
         width:  50px;

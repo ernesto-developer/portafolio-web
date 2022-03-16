@@ -5,7 +5,7 @@
     margin-bottom: 32px;
     background-color: var(--elevate-color);
     backdrop-filter: var(--elevate-blur);
-    box-shadow:var(--elevate-shadow);
+/*     box-shadow:var(--elevate-shadow); */
     border-radius: 30px;
 }
 
