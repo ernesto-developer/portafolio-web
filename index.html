@@ -240,21 +240,36 @@
             <p class="contact__form__text">Complete el siguiente formulario y me pondré en contact con usted lo antes posible.</p>
                 <div class="contact__form__containerInput">
                     <label class="form__input__label" for="inputNombre">Nombre</label>
-                    <input type="text" name="nombre" v-model="from_name" id="inputNombre" class="contact__form__nombre style-input">
+                   <div class="input">
+                    <input type="text" name="nombre" v-model="from_name" id="inputNombre" class="contact__form__nombre style-input form__input">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                   </div>
                 </div>
                 <div class="contact__form__containerInput">
                     <label class="form__input__label" for="inputEmail">Email</label>
-                    <input type="email" name="email" v-model="from_email" id="inputEmail" class="contact__form__email style-input">
+                    <div class="input">
+                        <input type="email" name="email" v-model="from_email" id="inputEmail"
+                            class="contact__form__email style-input form__input">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
                 </div>
                 <div class="contact__form__containerInput">
                     <label class="form__input__label" for="inputAsunto">Asunto</label>
-                    <input type="text" name="asunto" v-model="subject" id="inputAsunto" class="contact__form__asunto style-input">
-                </div> 
+                    <div class="input">
+                        <input type="text" name="asunto" v-model="subject" id="inputAsunto"
+                            class="contact__form__asunto style-input form__input">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                </div>
                 <div class="contact__form__containerInput">
                     <label class="form__input__label" for="inputMensaje">Mensaje</label>
-                    <textarea name="mensaje" id="inputMensaje" v-model="message" cols="30" rows="10" class="contact__form__mensaje style-input"></textarea>
-                </div> 
-                <button type="submit" class="contact__form__button"@click="enviar">Enviar Mensaje</button>
+                    <div class="input">
+                        <textarea name="mensaje" id="inputMensaje" v-model="message" cols="30" rows="10"
+                            class="contact__form__mensaje style-input form__input"></textarea>
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                </div>
+                <button id="btnSend" type="submit" class="contact__form__button"@click="enviar">Enviar Mensaje</button>
         </div> 
     </section>
 
