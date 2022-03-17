@@ -2,6 +2,7 @@
     align-self: center;
     width: 95%;
     height: fit-content;
+    margin: 0px 2.5%;
     padding: 64px 0px;
     display: flex;
     background-color: var(--elevate-color);

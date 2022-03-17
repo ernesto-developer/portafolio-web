@@ -33,3 +33,17 @@ const vue = new Vue({
         }
     }
 });
+
+
+ScrollReveal({ distance: '50px' }).reveal('.intro', {
+    origin: "top",
+    delay: 275,
+    duration: 3000,
+    reset: true,
+});
+ScrollReveal({ distance: '100px' }).reveal('.aboutMe', {
+    origin: "right",
+    delay: 275,
+    duration: 1500,
+    reset: true,
+});

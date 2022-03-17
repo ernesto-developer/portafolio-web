@@ -16,6 +16,7 @@
     font-weight: 500;
     color: var(--color-light);
     margin-bottom: 5px;
+    text-shadow: var(--text-border-light);
     /* opacity: 0; */
 
 }

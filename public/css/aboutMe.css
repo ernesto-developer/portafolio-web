@@ -5,7 +5,7 @@ display: flex;
 justify-content: space-between;
 background-color: #EAF2FD;
 padding: 64px 0px;
-margin: 32px 0px;
+margin: 32px 2.5%;
 background-color: var(--elevate-color);
 backdrop-filter: var(--elevate-blur);
 /* box-shadow: var(--elevate-shadow); */

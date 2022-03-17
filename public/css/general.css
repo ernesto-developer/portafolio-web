@@ -9,7 +9,7 @@
     --color-light: rgb(235, 232, 232);
     /* --color-light: #D8E9A8; */
 
-    --elevate-color: rgba(255,255,255,.05);
+    --elevate-color: rgba(255,255,255,.07);
     --elevate-color-green: rgba(30, 81, 40, .6 );
     --elevate-color-test: rgba(255, 204, 30, .6 );
     --elevate-blur: blur(5px);
@@ -27,25 +27,29 @@
   .5px 0 0 #000, 
   -.5px 0 0 #000,
    0 .5px 0 #000, 
-  0 -.5px 0 #000,
-   .5px .5px #000, 
+  0 -.5px 0 #000;
+   /* .5px .5px #000, 
 -.5px -.5px 0 #000, 
 .5px -.5px 0 #000, 
--.5px .5px 0 #000;
+-.5px .5px 0 #000;/*
 }
 
 body{
     
     /* background: linear-gradient(#064663,#04293A, #041C32); */
     /* background-image: url("/public/assets/fondoMalla.svg"); background-size: cover; background-repeat: no-repeat; */
-    background-image: url("/public/assets/peakpx.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
+    background-image: url("/public/assets/fondo-size-width.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
 
 @media(max-width:450px){
     body{
-        background-image: url("/public/assets/flechaverde.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
+        background-image: url("/public/assets/flechaverde.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        background-position: bottom;
 
     }
 }

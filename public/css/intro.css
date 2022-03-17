@@ -43,6 +43,11 @@ padding: 2px;
 .intro__data__navLinks__link{
     display: flex;
     color: #fff;
+    height: 30px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .08);
+    backdrop-filter: var(--elevate-blur);
+    border-radius: 10px;
 
 }
 .intro__data__navLinks__link:hover{
@@ -50,12 +55,13 @@ padding: 2px;
     transition: .1s;
 }
 .intro__data__navLinks__link__text{
-    margin-right: 4px;
+    margin: 4px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: var(--color-light);
+    text-shadow: var(--text-border-light);
 }
 .intro__data__navLinks__link__text:hover{
     text-decoration: underline;
@@ -65,7 +71,7 @@ padding: 2px;
     width: 16px;
     height: 16px;
     transform: rotate(45deg);
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .intro__avatarImg{

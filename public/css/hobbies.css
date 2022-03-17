@@ -60,6 +60,7 @@
     @media (max-width:496px){
         .hobbies__containerCards{
             margin: 0px 8% 88px 8%;
+            justify-content: center;
         }
         .hobbies__title{
             font-size: 22px;
