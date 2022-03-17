@@ -28,16 +28,7 @@
   -.5px 0 0 #000,
    0 .5px 0 #000, 
   0 -.5px 0 #000;
-   /* .5px .5px #000, 
--.5px -.5px 0 #000, 
-.5px -.5px 0 #000, 
--.5px .5px 0 #000;/*
-}
-
-body{
-    
-    /* background: linear-gradient(#064663,#04293A, #041C32); */
-    /* background-image: url("/public/assets/fondoMalla.svg"); background-size: cover; background-repeat: no-repeat; */
+  
     background-image: url("../assets/fondo-size-width.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
     display: flex;
     flex-direction: column;
