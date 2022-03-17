@@ -38,14 +38,14 @@ body{
     
     /* background: linear-gradient(#064663,#04293A, #041C32); */
     /* background-image: url("/public/assets/fondoMalla.svg"); background-size: cover; background-repeat: no-repeat; */
-    background-image: url("/public/assets/fondo-size-width.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
+    background-image: url("../assets/fondo-size-width.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
 
 @media(max-width:450px){
     body{
-        background-image: url("/public/assets/flechaverde.jpg"); 
+        background-image: url("../assets/flechaverde.jpg"); 
         background-size: cover;
         background-repeat: no-repeat; 
         background-attachment: fixed;
