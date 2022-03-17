@@ -1,3 +1,4 @@
+
 .contact{
     align-self: center;
     width: 95%;
@@ -65,6 +66,10 @@
     flex-direction: column;
 
 }
+.input{
+    display: flex;
+    justify-content: space-between;
+}
 .form__input__label{
     font-family: var(--font-Raleway);
     font-size: 12px;
@@ -85,6 +90,7 @@
     font-weight: bold;
     line-height: 20px;
     color: var(--color-black);
+    width: 100%;
     
     
 }
