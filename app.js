@@ -34,16 +34,19 @@ const vue = new Vue({
     }
 });
 
+function scroll(distance, section,origin,duration){
 
-ScrollReveal({ distance: '50px' }).reveal('.intro', {
-    origin: "top",
-    delay: 275,
-    duration: 3000,
-    reset: true,
-});
-ScrollReveal({ distance: '100px' }).reveal('.aboutMe', {
-    origin: "right",
-    delay: 275,
-    duration: 1500,
-    reset: true,
-});
+    ScrollReveal({ distance: distance }).reveal(section, {
+        origin: origin,
+        delay: 275,
+        duration: duration,
+        reset: true,
+    });
+};
+
+
+scroll('150px','.intro','top',2000);
+scroll('100px','.aboutMe','right',1500);
+scroll('100px','.studies','left',1500);
+scroll('150px','.contact','bottom',2000);
+

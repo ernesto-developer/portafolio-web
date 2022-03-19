@@ -29,6 +29,10 @@
    0 .5px 0 #000, 
   0 -.5px 0 #000;
   
+}
+
+body{
+    
     background-image: url("../assets/fondo-size-width.jpg"); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -39,8 +43,8 @@
         background-image: url("../assets/flechaverde.jpg"); 
         background-size: cover;
         background-repeat: no-repeat; 
-        background-attachment: fixed;
-        /* background-position: bottom; */
+        background-attachment: fixed; 
+        background-position: center; 
 
     }
 }

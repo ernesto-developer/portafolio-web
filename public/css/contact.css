@@ -1,3 +1,7 @@
+h3{
+    font-size: 25px;
+    color: red;
+}
 
 .contact{
     align-self: center;
@@ -76,6 +80,7 @@
     font-size: 12px;
     line-height: 16px;
     color: #A2A2A2;
+    display: flex;
     
 }
 .style-input{
