@@ -20,7 +20,6 @@
 
 .contact__containerForm{
     width: 656px;
-    height: 596px;
     margin-left: 16px;
     margin-right: 5%;
     display: flex;
@@ -51,7 +50,6 @@
 }
 
 .contact__form__mensaje{
-    /* min-width: 656px; */
     min-height: 180px;
     max-width: 656px;
     max-height: 180px;
@@ -65,6 +63,8 @@
     padding: 8px 12px;
     display: flex;
     flex-direction: column;
+    border: solid;
+    border-width: 2px;
 
 }
 .input{
@@ -78,9 +78,6 @@
     color: #A2A2A2;
     
 }
-/* TODO HACER CON JS QUE EL LABEL SE PONGA AZUL CUNADO EL INPUT ESTE enable  */
-
-
 .style-input{
     height: 20px;
     background-color: #fff;
@@ -92,9 +89,31 @@
     line-height: 20px;
     color: var(--color-black);
     width: 100%;
-    
+    border-color: red;
     
 }
+
+.contact__form__errorContainer{
+
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #ECB365;
+    border-radius: 10px;
+    display: none;
+
+}
+.contact__form__errorText{
+    color: #041C32;
+    font-size: 13px;
+}
+.activo{
+    display: block;
+}
+.inactivo{
+    display: none;
+}
+
 .contact__form__button{
     width: 144px;
     height: 51px;
@@ -103,12 +122,53 @@
     margin: 8px 0px;
     border: none;
     cursor: pointer;
+    pointer-events: none;
+    
 }
+
+.btn__desactivado
+{
+    cursor: not-allowed; 
+    background-color: rgb(189, 186, 186) !important;
+    pointer-events:none;
+}
+.btn__activado 
+{
+    cursor: pointer; 
+    background-color: #2A7AE4 !important;
+    pointer-events: visible;
+}
+
+
 .contact__form__button:hover{
     background-color: #236ac7;
     transition: .2s;
 }
 
+/* ##################### Clases para inputs con errores o Inputs correctos #################### */
+
+.formulario__validacion-estado{
+    opacity: 0;
+}
+
+.form__input__incorrecto{
+
+    color: red;
+    border-color: red;
+    opacity: 1;
+
+}
+
+.form__input__correcto{
+
+    color: green;
+    border-color: green;
+    opacity: 1;
+
+}
+
+
+/* ############################### MEDIA QUERYS ######################### */
 @media(max-width: 950px){
     .contact__img{
         display: none;
@@ -129,6 +189,10 @@
 @media (max-width: 400px) {
     .contact__form__containerInput{
         padding: 7px 5px;
+    }
+    .contact__form__errorText{
+        font-size: 10px;
+        letter-spacing: 1px;
     }
     
 }
